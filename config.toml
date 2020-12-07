@@ -1,0 +1,60 @@
+baseURL = "http://nikitash.github.io/"
+languageCode = "en-us"
+title = "Hey, I'm Nikita!"
+theme = "anatole"
+
+[params]
+title = "I'm Nikita"
+author = "Nikita Shumeiko"
+description = "Sup!"
+profilePicture = "images/me.png"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = false
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/nikita-shumeiko/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/nikita-sh"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:shumeiko.nikita@gmail.com"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+  
+  [[menu.main]]
+  name = "Projects"
+  weight = 400
+  identifier = "projects"
+  url = "/projects/"
