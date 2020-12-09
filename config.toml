@@ -6,7 +6,7 @@ theme = "anatole"
 [params]
 title = "I'm Nikita"
 author = "Nikita Shumeiko"
-description = "Computer Science student entering their 4th year at the University of Toronto. I love learning about new things and putting new skills to the test. Here you'll find some information about me as well as random musings on anything ranging from game design to film." 
+description = "I'm a Computer Science at the University of Toronto. I enjoy learning about tech, playing video games and whatever hobby of the week happens to take my fancy." 
 profilePicture = "images/me.png"
 keywords = ""
 favicon = "favicons/"
