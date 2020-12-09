@@ -6,7 +6,7 @@ theme = "anatole"
 [params]
 title = "I'm Nikita"
 author = "Nikita Shumeiko"
-description = "Sup!"
+description = "Computer Science student entering their 4th year at the University of Toronto. I love learning about new things and putting new skills to the test. Here you'll find some information about me as well as random musings on anything ranging from game design to film." 
 profilePicture = "images/me.png"
 keywords = ""
 favicon = "favicons/"
@@ -32,6 +32,11 @@ url = "https://github.com/nikita-sh"
 icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:shumeiko.nikita@gmail.com"
+
+[[params.socialIcons]]
+icon = "fas fa-file-alt"
+title = "Resume"
+url = "/resume.pdf"
 
 [menu]
 
